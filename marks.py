@@ -4,8 +4,8 @@ if len(sys.argv)==6:
    n1=sys.argv[1]
    n2=sys.argv[2]
    n3=sys.argv[3]
-   n3=sys.argv[4]
-   n3=sys.argv[5]
+   n4=sys.argv[4]
+   n5=sys.argv[5]
 else:
    n1=35
    n2=56
