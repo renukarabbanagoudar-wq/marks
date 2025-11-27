@@ -1,17 +1,17 @@
 import sys
 if len(sys.argv)==6:
-script_name=sys.argv[0]
-n1=sys.argv[1]
-n2=sys.argv[2]
-n3=sys.argv[3]
-n3=sys.argv[4]
-n3=sys.argv[5]
+   script_name=sys.argv[0]
+   n1=sys.argv[1]
+   n2=sys.argv[2]
+   n3=sys.argv[3]
+   n3=sys.argv[4]
+   n3=sys.argv[5]
 else:
-n1=35
-n2=56
-n3=67
-n4=80
-n5=90
+   n1=35
+   n2=56
+   n3=67
+   n4=80
+   n5=90
 avg=((n1+n2+n3+n4+n5)/5)
 if(avg>90)
    grade='A'
