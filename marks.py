@@ -1,0 +1,32 @@
+import sys
+if len(sys.argv)==6:
+script_name=sys.argv[0]
+n1=sys.argv[1]
+n2=sys.argv[2]
+n3=sys.argv[3]
+n3=sys.argv[4]
+n3=sys.argv[5]
+else:
+n1=35
+n2=56
+n3=67
+n4=80
+n5=90
+avg=((n1+n2+n3+n4+n5)/5)
+if(avg>90)
+   grade='A'
+elif(avg>80)
+   grade='B'
+elif(avg>70)
+    grade='C'
+elif(avg>60)
+    grade='D'
+elif(avg>50)
+    grade='E'
+elif(avg>40)
+   grade='Fail'
+print("Marks1:",n1)
+print("Marks2:",n2)
+print("Marks3:",n3)
+print("Marks4:",n4)
+print("Marks5:",n5)
